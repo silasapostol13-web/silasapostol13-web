@@ -10,6 +10,10 @@ Screen Time APIs, watchOS, StoreKit 2, Firebase. Eight Xcode targets across five
 processes. Built and operated solo — design, engineering, backend, pricing, analytics,
 and the marketing.
 
+**[tidy](https://github.com/silasapostol13-web/tidy)** — a terminal file organizer in
+Python. Sorts, dedupes, renames and cleans any folder, previews every action before it
+runs, and can undo all of it. Built with Textual and Click.
+
 ### Things I've written up
 
 - **[Data Structures portfolio](https://github.com/silasapostol13-web/data-structures-portfolio)** —
