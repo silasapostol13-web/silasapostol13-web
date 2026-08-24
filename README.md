@@ -3,25 +3,25 @@
 Computer Science at UNC Charlotte, concentration in generative AI. Expected May 2028.
 I build iOS apps and ship them.
 
-**[Strut](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)** — live on the App Store.
-An app that ties phone access to walking: pick the apps that eat your day and a step
-goal, and they stay blocked until you earn them back. Swift, SwiftUI, HealthKit, the
-Screen Time APIs, watchOS, StoreKit 2, Firebase. Eight Xcode targets across five
-processes. Built and operated solo — design, engineering, backend, pricing, analytics,
-and the marketing.
+### Strut — [download on the App Store](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)
 
-**[tidy](https://github.com/silasapostol13-web/tidy)** — a terminal file organizer in
-Python. Sorts, dedupes, renames and cleans any folder, previews every action before it
-runs, and can undo all of it. Built with Textual and Click.
+An app that ties phone access to walking. Pick the apps that eat your day and a step
+goal, and they stay blocked until you earn them back.
+
+Swift, SwiftUI, HealthKit, the Screen Time APIs, watchOS, StoreKit 2, Firebase. Eight
+Xcode targets across five processes. Built and operated solo — design, engineering,
+backend, pricing, analytics, and the marketing.
 
 ### Things I've written up
 
 - **[Data Structures portfolio](https://github.com/silasapostol13-web/data-structures-portfolio)** —
   coursework, plus engineering write-ups on problems from Strut: keeping a step count
-  fresh when iOS guarantees you nothing, and reading data out of a one-way sandbox.
+  fresh when iOS guarantees you nothing, reading data out of a one-way sandbox, and
+  search in a database with no substring queries.
 - **[strut-dl](https://github.com/silasapostol13-web/strut-dl)** — Instagram's in-app
-  browser silently swallows App Store links. Found the one escape that still works, on a
-  real device across six rounds of testing. Every round is preserved in the repo.
+  browser silently swallows App Store links, so every install from a bio link was being
+  lost. Found the one escape that still works, on a real device across six rounds of
+  testing. Every round is preserved in the repo.
 
 ### What I'm interested in
 
