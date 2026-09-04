@@ -1,6 +1,7 @@
 ## Silas Apostol
 
-Computer Science at UNC Charlotte, concentration in generative AI. Expected May 2028.
+Computer Science at UNC Charlotte, concentration in AI-Assisted Software Engineering.
+Expected May 2028.
 I build iOS apps and ship them.
 
 ### Strut — [download on the App Store](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)
@@ -11,6 +12,20 @@ goal, and they stay blocked until you earn them back.
 Swift, SwiftUI, HealthKit, the Screen Time APIs, watchOS, StoreKit 2, Firebase. Eight
 Xcode targets across five processes. Built and operated solo — design, engineering,
 backend, pricing, analytics, and the marketing.
+
+### Pinky — [write-up and architecture](https://github.com/silasapostol13-web/pinky)
+
+An iOS app for two people in a long-distance relationship: four two-player games and
+guided date nights you run at the same time on two phones, alongside a FaceTime call.
+1.0.0, signed and staged for App Store review.
+
+Every screen is shared state across two devices, and that constraint is what the
+codebase is about — a matchmaking race resolved by deriving the session path
+deterministically instead of narrowing the window, countdowns arbitrated by a
+server-written timestamp so two phones can't race to end a round, in-progress strokes
+streamed at 8Hz, and a shared-purchase entitlement enforced by constraining the written
+result rather than trusting the client. Source is private; the write-up is public and I
+will share read access on request.
 
 ### Things I've written up
 
