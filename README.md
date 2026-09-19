@@ -1,49 +1,46 @@
 ## Silas Apostol
 
-Computer Science at UNC Charlotte, concentration in AI-Assisted Software Engineering.
-Expected May 2028.
-I build iOS apps and ship them.
+Computer science student at UNC Charlotte (B.A., concentration in AI-Assisted Software
+Engineering), expected May 2028. I design and launch iOS products, and I'm learning to build
+the systems behind them.
 
-### Strut — [download on the App Store](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)
+### Strut — [on the App Store](https://apps.apple.com/us/app/strut-walk-more-scroll-less/id6761438303)
 
-An app that ties phone access to walking. Pick the apps that eat your day and a step
-goal, and they stay blocked until you earn them back.
+The apps you choose stay blocked until you're on pace for your step goal. Live since June 2026,
+rated 5.0.
 
-Swift, SwiftUI, HealthKit, the Screen Time APIs, watchOS, StoreKit 2, Firebase. Eight
-Xcode targets across five processes. Built and operated solo — design, engineering,
-backend, pricing, analytics, and the marketing.
+The product decisions I'm proudest of:
 
-### Pinky — [write-up and architecture](https://github.com/silasapostol13-web/pinky)
+- **A pace curve built around your day.** An even, all-day pace fails anyone with a job or
+  classes, so onboarding asks about your routine and builds a curve that fits it.
+- **A step check-in at the block screen.** Apple Health doesn't update step counts reliably in
+  the background, so opening a blocked app asks you to check your steps. That pulls a fresh
+  count and lets you in if you're on pace.
+- **Paywalls that match the feature you tapped**, instead of one generic upgrade screen.
+- **Friends, leaderboards and challenges, kept free.**
+- **A companion Apple Watch app.** The watch-face complications came from beta tester requests.
 
-An iOS app for two people in a long-distance relationship: four two-player games and
-guided date nights you run at the same time on two phones, alongside a FaceTime call.
-1.0.0, signed and staged for App Store review.
+Built on Apple Health, Apple's Screen Time API, StoreKit and Firebase.
 
-Every screen is shared state across two devices, and that constraint is what the
-codebase is about — a matchmaking race resolved by deriving the session path
-deterministically instead of narrowing the window, countdowns arbitrated by a
-server-written timestamp so two phones can't race to end a round, in-progress strokes
-streamed at 8Hz, and a shared-purchase entitlement enforced by constraining the written
-result rather than trusting the client. Source is private; the write-up is public and I
-will share read access on request.
+### [strut-dl](https://github.com/silasapostol13-web/strut-dl)
 
-### Things I've written up
+Instagram's in-app browser was quietly blocking App Store links, so installs from my bio link
+were being lost. I tested fixes on my own phone over six rounds and shipped a redirect page
+that got people through. Instagram has since stopped blocking, so it's retired; every test
+round is preserved in the repo.
 
-- **[Data Structures portfolio](https://github.com/silasapostol13-web/data-structures-portfolio)** —
-  coursework, plus engineering write-ups on problems from Strut: keeping a step count
-  fresh when iOS guarantees you nothing, reading data out of a one-way sandbox, and
-  search in a database with no substring queries.
-- **[strut-dl](https://github.com/silasapostol13-web/strut-dl)** — Instagram's in-app
-  browser silently swallows App Store links, so every install from a bio link was being
-  lost. Found the one escape that still works, on a real device across six rounds of
-  testing. Every round is preserved in the repo.
+### Coursework
 
-### What I'm interested in
+[Data Structures portfolio](https://github.com/silasapostol13-web/data-structures-portfolio):
+work from ITSC 2214 at UNC Charlotte.
 
-Applied AI, mobile, and the measurement side of products — instrumenting something
-honestly enough to find out your own conclusion was wrong. Looking for a Summer 2027
-internship in Austin or remote.
+### Before Strut
 
-### Elsewhere
+Co-founded a real estate acquisitions company that closed three deals, and was Leasing Agent of
+the Year at a 1,200-bed community next to UNC Charlotte.
+
+### Looking for
+
+Summer 2027 internships in product, solutions engineering or growth, in Austin or remote.
 
 [LinkedIn](https://www.linkedin.com/in/silas-apostol-b377b7293/) · silasapostol13@gmail.com
